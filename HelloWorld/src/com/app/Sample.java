@@ -17,6 +17,7 @@ public class Sample {
 			Date myDate = format.parse(inputDate);
 			System.out.println(myDate);
 			System.out.println(new Date());
+			System.out.println("Hola feo");
 		} catch (ParseException e) {
 			System.out.println(e.getMessage());
 		}

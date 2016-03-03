@@ -15,7 +15,8 @@ public class Sample {
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 		try {
 			Date myDate = format.parse(inputDate);
-			System.out.println(myDate);			
+			System.out.println(myDate);
+			System.out.println(new Date());
 		} catch (ParseException e) {
 			System.out.println(e.getMessage());
 		}

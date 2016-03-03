@@ -18,7 +18,7 @@ public class Sample {
 			
 			
 			System.out.println(myDate);
-			
+			System.out.println(new Date());
 			
 			
 		} catch (ParseException e) {
